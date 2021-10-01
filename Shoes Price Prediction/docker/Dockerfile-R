@@ -1,0 +1,10 @@
+FFROM rocker/tidyverse:4.0.3
+
+RUN install2.r --error \
+    --deps TRUE \
+    ggmosaic \
+    glue \
+    tidymodels \
+    glmnet \
+    randomForest \
+    kernlab

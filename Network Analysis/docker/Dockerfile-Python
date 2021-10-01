@@ -1,0 +1,5 @@
+FROM jupyter/scipy-notebook:d990a62010ae
+
+RUN conda install --quiet --yes \
+    'networkx==2.5.*' \
+	'python-louvain==0.15'
